@@ -1,4 +1,4 @@
-﻿### Javascript cho người mưới bắt đầu – tutorial javascript cho frontend (phần 1)
+﻿## Javascript cho người mưới bắt đầu – tutorial javascript cho frontend (phần 1)
 
 - Javascript là ngôn ngữ lập trình phổ biến nhất trên thế giới trong suốt 20 năm qua. Nó cũng là một trong 3 ngôn ngữ trính của website:
 - HTML: Giúp ta thêm nội dung cho website.
@@ -99,12 +99,13 @@ Nhúng kiểu này ta có thể chèn ngay vị trí bất kỳ nào của một
 - ***Cách 3: Kiểu external***
 
 Nếu cách 1 và 2 chúng ta viết trực tiếp trên file html thì ở cách này chũng ta tách riêng file javascript và gọi nó thông qua thẻ \<script>
-
->folder
->|
->|___  index.html
->|
->|__  main.js
+```
+folder
+|
+|___  index.html
+|
+|__  main.js
+```
 
 ```
 <script src="./main.js"></script>
