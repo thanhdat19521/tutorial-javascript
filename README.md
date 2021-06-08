@@ -1,4 +1,4 @@
-﻿## Javascript cho người mưới bắt đầu – tutorial javascript cho frontend (phần 1)
+﻿## Javascript cho người mới bắt đầu – tutorial javascript cho frontend (phần 1)
 
 - Javascript là ngôn ngữ lập trình phổ biến nhất trên thế giới trong suốt 20 năm qua. Nó cũng là một trong 3 ngôn ngữ trính của website:
 - HTML: Giúp ta thêm nội dung cho website.
