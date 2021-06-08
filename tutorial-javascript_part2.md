@@ -30,7 +30,7 @@ Toán tử = được sử dụng để gán giá trị cho biến:
 
 vi dụ:
 ```
-        var year = 2016;
+        var year = 2021;
 ```
 
 ####    Toán tử logic: 
