@@ -194,7 +194,7 @@ Khi định nghĩa hàm bạn có thể gán giá giá trị mặc định cho �
 ```
 Thì giá trị mặc định JavaScript sẽ được sử dụng.
 
-## Cảm ơn bạn đã theo dõi, Xin chào và hẹn gặp lại các bạn ở phần tiếp theo.
+## Cảm ơn bạn đã theo dõi, Xin chào và hẹn gặp lại các bạn ở phần [tiếp theo](https://github.com/thanhdat19521/tutorial-javascript/blob/main/tutorial-javascript_part2.md).
 
 
 
