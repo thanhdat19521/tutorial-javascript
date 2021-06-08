@@ -199,4 +199,4 @@ Khởi tạo biến là việc khai báo và gán *giá trị bạn đầu* ch
 
 >**Vi dụ**: **var** name = "JavaScript";
 
-**Còn tiếp . . .**
+## Cảm ơn bạn đã theo dõi, Xin chào và hẹn gặp lại các bạn ở phần [tiếp theo](https://github.com/thanhdat19521/tutorial-javascript/blob/main/tutorial-javascript_part2.md).
