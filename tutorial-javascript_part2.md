@@ -73,4 +73,35 @@ ví dụ:
 
         greet = "Good morning";
 
+#### Câu lệnh else:
+Câu lệnh else được sử dụng kết hợp với if để thực thi đoạn mã lệnh khi biểu thức điều kiện trả về giá trị là false.
+
+ví dụ:
+```
+        var greet; hour = 13; 
+        if (hour < 12 && hour > 0) { 
+            greet = "Good morning"; 
+        } else { 
+            greet = "Hello"; 
+        }
+```
+
+####  Câu lệnh else if: 
+Câu lệnh elseif được sử dụng kết hợp với câu lệnh if để gán thêm điều kiện cho cấu trúc điều khiển.
+
+ví dụ:
+```
+        var greet; hour = 21; 
+        if (hour < 12 && hour > 0) { 
+            greet = "Good morning"; 
+        } else if (hour >= 12 && hour < 18) { 
+            greet = "Good afternoon"; 
+        } elseif (hour >= 18 && hour < 21) { 
+            greet = "Good evening"; 
+        } else { 
+            greet = "Good night"; 
+        }
+```
+
+
 
