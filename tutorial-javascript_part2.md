@@ -5,6 +5,7 @@ JavaScript hỗ trợ rất nhiều các phép toán khác nhau như phép toán
 
 ####    Toán tử số học: 
         JavaScript hỗ trợ các toán tử cơ bản trong số học như:
+        
             •	Toán tử +: Thực hiện phép cộng
             •	Toán tử -: Thực hiện phép trừ
             •	Toán tử *: Thực hiện phép nhân
