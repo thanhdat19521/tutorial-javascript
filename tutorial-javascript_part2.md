@@ -99,7 +99,7 @@ ví dụ:
             greet = "Good morning"; 
         } else if (hour >= 12 && hour < 18) { 
             greet = "Good afternoon"; 
-        } elseif (hour >= 18 && hour < 21) { 
+        } else if (hour >= 18 && hour < 21) { 
             greet = "Good evening"; 
         } else { 
             greet = "Good night"; 
