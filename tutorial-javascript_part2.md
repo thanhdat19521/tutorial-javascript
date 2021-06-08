@@ -3,8 +3,8 @@
 ### Toán tử
 JavaScript hỗ trợ rất nhiều các phép toán khác nhau như phép toán số học (cộng, trừ, nhân, chia, tìm phần dư..) hay các phép toán dùng để đếm số ký tự trong một chuỗi, nối chuỗi... Tương ứng với mỗi phép toán là toán tử dùng để thực hiện các phép toán này.
 
-####    Toán tử số học: 
-        JavaScript hỗ trợ các toán tử cơ bản trong số học như:
+####    Toán tử số học:
+JavaScript hỗ trợ các toán tử cơ bản trong số học như:
 
             •	Toán tử +: Thực hiện phép cộng
             •	Toán tử -: Thực hiện phép trừ
@@ -13,22 +13,24 @@ JavaScript hỗ trợ rất nhiều các phép toán khác nhau như phép toán
             •	Toán tử %: Thực hiện phép tính phần dư
 
 ####    Toán tử chuỗi: 
-        Toán tử + ngoài việc được sử dụng để thực hiện phép cộng thì nó còn được sử dụng để nối các chuỗi
-        (bao gồm một hoặc nhiều ký tự) lại với nhau:
+Toán tử + ngoài việc được sử dụng để thực hiện phép cộng thì nó còn được sử dụng để nối các chuỗi
+(bao gồm một hoặc nhiều ký tự) lại với nhau:
 
+vi dụ:
 ```
-vi dụ:    var name = "JavaScript" console.log("Xin chào" + " " + name);
-
-            Hoặc nối chuỗi với số:
-
-            console.log("Xin chào" + " " + 2016);
+        var name = "JavaScript" console.log("Xin chào" + " " + name);
+```
+Hoặc nối chuỗi với số:
+```
+        console.log("Xin chào" + " " + 2016);
 ```
 
 ####    Toán tử gán giá trị: 
-        Toán tử = được sử dụng để gán giá trị cho biến:
+Toán tử = được sử dụng để gán giá trị cho biến:
 
+vi dụ:
 ```
-vi dụ:      var year = 2016;
+        var year = 2016;
 ```
 
 ####    Toán tử logic: 
@@ -43,10 +45,32 @@ vi dụ:      var year = 2016;
 
 vi dụ:
 ```
-vi dụ:      var a = 5; 
-            var b = "5"; 
-            console.log(a == b); // true 
-            console.log(a === b); // false
+        var a = 5; 
+        var b = "5"; 
+        console.log(a == b); // true 
+        console.log(a === b); // false
 ```
+
+### Cấu trúc điều kiện:
+Cấu trúc điều khiển được sử dụng để kiểm soát luồng thực thi của các đoạn mã có trong chương trình.
+
+####    Câu lệnh if: 
+Câu lệnh if được sử dụng khi việc thực thi của một đoạn mã lệnh phụ thuộc vào tính đúng của của một biểu thức điều kiện cho trước.
+
+ví dụ:
+```
+        var greet; hour = 7;
+        if (hour < 12 && hour > 0) { 
+            greet = "Good morning"; 
+        }
+```
+
+        - Ở ví dụ trên khi biểu thức điều kiện là:
+
+        hour < 12 && hour > 0
+
+        - trả về giá trị là true thì đoạn mã bên trong sẽ được thực thi để gán giá trị cho biến greet.
+
+        greet = "Good morning";
 
 
