@@ -22,7 +22,7 @@ vi dụ:
 ```
 Hoặc nối chuỗi với số:
 ```
-        console.log("Xin chào" + " " + 2016);
+        console.log("Xin chào" + " " + 2021);
 ```
 
 ####    Toán tử gán giá trị: 
