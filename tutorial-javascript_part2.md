@@ -145,7 +145,7 @@ console.log( "How may I help you?" );
     numOfCustomers = numOfCustomers - 1;
 }
 
-// đấu với:
+// So với:
 
 do {
     console.log( "How may I help you?" );
@@ -161,6 +161,36 @@ do {
 
 
 **Gợi ý**: *Chúng ta có thể sử dụng lệnh **break** của JS để ngừng một vòng lặp. Đồng thời, chúng ta có thể thấy rằng thật dễ dàng một cách kinh khủng để tạo ra một vòng lặp chạy liên tục mà không có cơ chế **break**.*
+
+**Ví dụ:**
+
+```
+var i = 0;
+
+// vòng lặp `while..true` sẽ chạy mãi mãi
+while (true) {
+    // dừng vòng lặp?
+    if ((i <= 9) === false) {
+    break;
+}
+    console.log( i );
+    i = i + 1;
+}
+// 0 1 2 3 4 5 6 7 8 9
+```
+
+Trong khi **while** hay **(do..while)** có thể hoàn thành nhiệm vụ thủ công, có một dạng cú pháp khác được gọi là vòng lặp **for** cho dành mục đích đó.
+
+```
+for (var i = 0; i <= 9; i = i + 1) {
+    console.log( i );
+}
+// 0 1 2 3 4 5 6 7 8 9
+```
+
+- Như bạn thấy, trong cả hai trường hợp điều kiện **i <= 9** là *true* trong 10 lần lặp đầu tiên của một dạng vòng lặp **(các giá trị i từ 0 đến 9)** trở thành *false* khi *i* đạt giá trị 10.
+- Vòng lặp for có ba mệnh đề: mệnh đề khởi tạo **(var i=0)**, mệnh đề kiểm tra điều kiện **(i <= 9)**, và mệnh đề cập nhật **(i = i + 1)**. Vì vậy nếu bạn định đếm với vòng lặp lặp đi lặp lại, **for** là hỉnh thức gọn gàng và dễ hiểu hơn để hiểu và viết.
+
 
 
 
