@@ -6,15 +6,15 @@ JavaScript hỗ trợ rất nhiều các phép toán khác nhau như phép toán
 ####    Toán tử số học:
 JavaScript hỗ trợ các toán tử cơ bản trong số học như:
 
-  - Toán tử __+__: Thực hiện phép cộng
-  - Toán tử __-__: Thực hiện phép trừ
-  - Toán tử __*__: Thực hiện phép nhân
-  - Toán tử __\__: Thực hiện phép chia
-  - Toán tử __%__: Thực hiện phép tính phần dư
+  - Toán tử +: Thực hiện phép cộng
+  - Toán tử -: Thực hiện phép trừ
+  - Toán tử *: Thực hiện phép nhân
+  - Toán tử \: Thực hiện phép chia
+  - Toán tử %: Thực hiện phép tính phần dư
   ---
 
 ####    Toán tử chuỗi: 
-Toán tử **+** ngoài việc được sử dụng để thực hiện phép cộng thì nó còn được sử dụng để nối các chuỗi
+Toán tử + ngoài việc được sử dụng để thực hiện phép cộng thì nó còn được sử dụng để nối các chuỗi
 (bao gồm một hoặc nhiều ký tự) lại với nhau:
 
 vi dụ:
@@ -29,7 +29,7 @@ console.log("Xin chào" + " " + 2021);
   ---
 
 ####    Toán tử gán giá trị: 
-Toán tử **=** được sử dụng để gán giá trị cho biến:
+Toán tử = được sử dụng để gán giá trị cho biến:
 
 vi dụ:
 ```
@@ -37,14 +37,14 @@ var year = 2021;
 ```
   ---
 ####    Toán tử logic: 
-  - Toán tử  **==** : So sánh ngang bằng giá trị.
-  - Toán tử  **===** : So sánh ngang bằng giá trị và kiểu dữ liệu.
-  - Toán tử  **!=** : So sánh khác giá trị.
-  - Toán tử  **>=** : So sánh lớn hơn hoặc bằng.
-  - Toán tử  **<=** : So sánh nhỏ hơn hoặc bằng.
-  - Toán tử  **AND**  hay **( & )**: Thực hiện logic kết hợp các biểu thức.
-  - Toán tử  **OR**  hay **( || )**: Thực hiện logic hoặc.
-  - Toán tử  **NOT**  hay **( ! )**: Thực hiện logic phủ định biểu thức.
+  - Toán tử  == : So sánh ngang bằng giá trị.
+  - Toán tử  === : So sánh ngang bằng giá trị và kiểu dữ liệu.
+  - Toán tử  != : So sánh khác giá trị.
+  - Toán tử  >= : So sánh lớn hơn hoặc bằng.
+  - Toán tử  <= : So sánh nhỏ hơn hoặc bằng.
+  - Toán tử  AND  hay ( & ): Thực hiện logic kết hợp các biểu thức.
+  - Toán tử  OR  hay ( || ): Thực hiện logic hoặc.
+  - Toán tử  NOT  hay ( ! ): Thực hiện logic phủ định biểu thức.
 
 vi dụ:
 ```
