@@ -130,6 +130,9 @@ else {
 - Tại đây, nếu **hour >= 12 && hour < 18** là **true**, chúng ta sẽ in ra *"Good afternoon"*.
 - Tại đây, nếu **hour >= 18 && hour < 21** là **true**, chúng ta sẽ in ra *"Good evening"*.
 - Ngược lại mệnh đề **else** nói ra chúng ta sẽ trả lời lịch sự *"Good night"*.
+
+
+=> Tổng kết
 ---
 
 ### Function (Hàm)
