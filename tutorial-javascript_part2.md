@@ -158,7 +158,7 @@ do {
 - Sự khác biệt thực tế duy nhất giữa các vòng lặp này là liệu điều kiện được kiểm tra trước lần lặp đầu tiên **(while)** hay sau lần lặp đầu tiên **(do..while)**.
 - Ở một trong hai dạng, nếu điều kiện kiểm tra là **false**, lần lặp kế tiếp sẽ không chạy. Có nghĩa là điều kiện khởi tạo là **false**, vòng lặp **while** sẽ không bao giờ chạy, nhưng một vòng lặp **do..while** sẽ chạy lần đầu.
 - Điều kiện được kiểm tra cho mỗi lần lặp, giống như nó có lệnh **if** bên trong vòng lặp.
-*Lưu ý: Chúng ta có thể sử dụng lệnh break của JS để ngừng một vòng lặp. Đồng thời, chúng ta có thể thấy rằng thật dễ dàng một cách kinh khủng để tạo ra một vòng lặp chạy liên tục mà không có cơ chế break.*
+**Gợi ý**: *Chúng ta có thể sử dụng lệnh break của JS để ngừng một vòng lặp. Đồng thời, chúng ta có thể thấy rằng thật dễ dàng một cách kinh khủng để tạo ra một vòng lặp chạy liên tục mà không có cơ chế break.*
 
 
 
