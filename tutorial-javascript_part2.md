@@ -73,8 +73,8 @@ if (amount < bank_balance) {
 
 ```
 
-Lệnh if cần một diễn đạt trong dấu ngoặc đơn () được thể hiện như true hoặc false. \\
-trong ví vụ chúng ta có biểu thức <span style="color: red">amount < bank_balance <span>,
+Lệnh if cần một diễn đạt trong dấu ngoặc đơn () được thể hiện như true hoặc false\\
+trong ví vụ chúng ta có biểu thức amount < bank_balance,
 
 ---
 #### Câu lệnh else:
