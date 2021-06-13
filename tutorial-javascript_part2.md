@@ -9,7 +9,7 @@ JavaScript hỗ trợ các toán tử cơ bản trong số học như:
   - Toán tử +: Thực hiện phép cộng
   - Toán tử -: Thực hiện phép trừ
   - Toán tử *: Thực hiện phép nhân
-  - Toán tử \: Thực hiện phép chia
+  - Toán tử /: Thực hiện phép chia
   - Toán tử %: Thực hiện phép tính phần dư
   ---
 
