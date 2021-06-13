@@ -72,8 +72,9 @@ if (amount < bank_balance) {
 }
 
 ```
-Lệnh _if_ cần một diễn đạt trong dấu ngoặc đơn _()_ được thể hiện như _true_ hoặc _false_.
-trong ví vụ chúng ta có biểu thức <span style="color: red">amount < bank_balance<span>
+
+Lệnh if cần một diễn đạt trong dấu ngoặc đơn () được thể hiện như true hoặc false.
+trong ví vụ chúng ta có biểu thức (amount < bank_balance),
   ---
 #### Câu lệnh else:
 Câu lệnh else được sử dụng kết hợp với if để thực thi đoạn mã lệnh khi biểu thức điều kiện trả về giá trị là false.
