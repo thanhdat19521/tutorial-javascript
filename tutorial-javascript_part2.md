@@ -203,7 +203,7 @@ for (var i = 0; i <= 9; i = i + 1) {
 - Vòng lặp for có ba mệnh đề: mệnh đề khởi tạo **(var i=0)**, mệnh đề kiểm tra điều kiện **(i <= 9)**, và mệnh đề cập nhật **(i = i + 1)**. Vì vậy nếu bạn định đếm với vòng lặp lặp đi lặp lại, **for** là hỉnh thức gọn gàng và dễ hiểu hơn để hiểu và viết.
 
 
-## Cảm ơn bạn đã theo dõi, Xin chào và hẹn gặp lại các bạn ở phần [tiếp theo](https://github.com/thanhdat19521/tutorial-javascript/blob/main/tutorial-javascript_part2.md).
+## Cảm ơn bạn đã theo dõi, Xin chào và hẹn gặp lại các bạn ở phần [tiếp theo](https://github.com/thanhdat19521/tutorial-javascript/blob/main/function.md).
 
 
 
