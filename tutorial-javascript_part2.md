@@ -131,11 +131,32 @@ else {
 - Tại đây, nếu **hour >= 18 && hour < 21** là **true**, chúng ta sẽ in ra *"Good evening"*.
 - Ngược lại mệnh đề **else** nói ra chúng ta sẽ trả lời lịch sự *"Good night"*.
 
-
-=> Tổng kết
 ---
 
-### Function (Hàm)
+### Vòng lặp:
+Ta muốn làm một việc gì đó lặp đi lặp lại cho đến một thời điểm nhất định thì dùng lại. Vòng lặp cũng vậy, nó sẽ lặp đi lặp lại 1 công việc khi điều kiện trả về *true*, cho đến khi điều kiện trả về *false* thì vònglawpj sẽ kết thúc.
+- Một vòng lăp bao gồm điều kiện kiểm tra cũng như một *block* (thường la {...}). Mỗi lần *block* vòng lặp được thực hiện, nó được gọi là *sự lặp lại*.
+
+Ví dụ: vòng **while** và **do..while** minh họa khái niệm lặp lại một *block* câu lệnh cho đến khi điều kiện không còn được đánh giá là *true*:
+```
+while (numOfCustomers > 0) {
+console.log( "How may I help you?" );
+    // giúp đỡ khách hàng...
+    numOfCustomers = numOfCustomers - 1;
+}
+
+// đấu với:
+
+do {
+    console.log( "How may I help you?" );
+    // giúp đỡ khách hàng...
+    numOfCustomers = numOfCustomers - 1;
+} while (numOfCustomers > 0);
+
+```
+
+
+<!-- ### Function (Hàm)
 Hàm là một đoạn mã lệnh được sử dụng để thực hiện một tác vụ cụ thể và tác vụ này có thể được lặp lại nhiều lần một cách dễ dàng.
 
 #### Định nghĩa hàm: 
@@ -221,7 +242,7 @@ Khi định nghĩa hàm bạn có thể gán giá giá trị mặc định cho �
 ```
         greet();
 ```
-Thì giá trị mặc định JavaScript sẽ được sử dụng.
+Thì giá trị mặc định JavaScript sẽ được sử dụng. -->
 
 ## Cảm ơn bạn đã theo dõi, Xin chào và hẹn gặp lại các bạn ở phần [tiếp theo](https://github.com/thanhdat19521/tutorial-javascript/blob/main/tutorial-javascript_part2.md).
 
