@@ -4,4 +4,4 @@
 
 **Các dạng function**
 - Defining functions
-- Function expressions
+- Calling functions
