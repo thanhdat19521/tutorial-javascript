@@ -61,7 +61,7 @@ Cấu trúc điều khiển được sử dụng để kiểm soát luồng th�
 - Có nhiều cách để bạn diễn đạt điều kiện trong chương trình.
 
 ####    Câu lệnh if: Nếu điều kiện này đúng thì code nằm trong sẽ được thực thi
-Câu lệnh if được sử dụng khi việc thực thi của một đoạn mã lệnh phụ thuộc vào tính đúng của của một biểu thức điều kiện cho trước.
+Câu lệnh **if** được sử dụng khi việc thực thi của một đoạn mã lệnh phụ thuộc vào tính đúng của của một biểu thức điều kiện cho trước.
 
 ví dụ:
 ```
@@ -78,7 +78,7 @@ if (amount < bank_balance) {
 
 ---
 #### Câu lệnh else: Cung cấp môt sự thay thế điều kiện nếu điều kiện của if không thoả mãn
-Câu lệnh else được sử dụng kết hợp với if để thực thi đoạn mã lệnh khi biểu thức điều kiện trả về giá trị là false.
+Câu lệnh **else** được sử dụng kết hợp với **if** để thực thi đoạn mã lệnh khi biểu thức điều kiện trả về giá trị là false.
 
 ví dụ:
 ```
@@ -102,23 +102,36 @@ else {
 - Ngược lại mệnh đề **else** nói ra chúng ta sẽ trả lời lịch sự *"No,thanks."* và *amount* không thay đổi.
 ---
 
-####  Câu lệnh else if: 
-Câu lệnh elseif được sử dụng kết hợp với câu lệnh if để gán thêm điều kiện cho cấu trúc điều khiển.
+####  Câu lệnh else if: Cung cấp điều kiện như câu lệnh if
+Câu lệnh **else if** được sử dụng kết hợp với câu lệnh **if** để gán thêm điều kiện cho cấu trúc điều khiển.
 
 ví dụ:
 ```
 var greet; hour = 21; 
+
+// Đây có phải là buổi sáng?
 if (hour < 12 && hour > 0) { 
         greet = "Good morning"; 
-} else if (hour >= 12 && hour < 18) { 
+}
+// Đây có phải là buổi chiều?
+else if (hour >= 12 && hour < 18) { 
         greet = "Good afternoon"; 
-} else if (hour >= 18 && hour < 21) { 
+} 
+// Đây có phải là buổi tối?
+else if (hour >= 18 && hour < 21) { 
         greet = "Good evening"; 
-} else { 
+} 
+// Đã đến giờ đi ngủ?
+else { 
         greet = "Good night"; 
 }
 ```
-  ---
+- Tại đây, nếu **hour < 12 && hour > 0** là **true**, chúng ta sẽ in ra *"Good morning"*.
+- Tại đây, nếu **hour >= 12 && hour < 18** là **true**, chúng ta sẽ in ra *"Good afternoon"*.
+- Tại đây, nếu **hour >= 18 && hour < 21** là **true**, chúng ta sẽ in ra *"Good evening"*.
+- Ngược lại mệnh đề **else** nói ra chúng ta sẽ trả lời lịch sự *"Good night"*.
+---
+
 ### Function (Hàm)
 Hàm là một đoạn mã lệnh được sử dụng để thực hiện một tác vụ cụ thể và tác vụ này có thể được lặp lại nhiều lần một cách dễ dàng.
 
