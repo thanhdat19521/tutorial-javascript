@@ -77,21 +77,29 @@ if (amount < bank_balance) {
 - trong ví vụ chúng ta có biểu thức **amount < bank_balance**, nó sẽ xác định **true** hoặc **false** tuỳ thuộc vào gía trị của biến **bank_balance**.
 
 ---
-#### Câu lệnh else:
+#### Câu lệnh else: Cung cấp môt sự thay thế điều kiện nếu điều kiện của if không thoả mãn
 Câu lệnh else được sử dụng kết hợp với if để thực thi đoạn mã lệnh khi biểu thức điều kiện trả về giá trị là false.
 
 ví dụ:
 ```
-var greet; hour = 13; 
-
-if (hour < 12 && hour > 0) { 
-        greet = "Good morning"; 
-} else { 
-        greet = "Hello"; 
+const ACCESSORY_PRICE = 9.99;
+var bank_balance = 302.13;
+var amount = 99.99;
+amount = amount * 2;
+// can we afford the extra purchase?
+if ( amount < bank_balance ) {
+    console.log( "I'll take the accessory!" );
+    amount = amount + ACCESSORY_PRICE;
 }
-```
+// otherwise:
+else {
+    console.log( "No, thanks." );
+}
 
-  ---
+```
+- Tại đây, nếu **amount < bank_balance** là **true**, chúng ta sẽ in ra *"I'll take the accessory!"* và thêm *9.99* vào biến *amount*.
+- Ngược lại mệnh đề **else** nói ra chúng ta sẽ trả lời lịch sự *"No,thanks."* và *amount* không thay đổi.
+---
 
 ####  Câu lệnh else if: 
 Câu lệnh elseif được sử dụng kết hợp với câu lệnh if để gán thêm điều kiện cho cấu trúc điều khiển.
