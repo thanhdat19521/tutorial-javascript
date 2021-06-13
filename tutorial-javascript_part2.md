@@ -58,26 +58,23 @@ console.log(a === b); // false
 
 ### Cấu trúc điều kiện:
 Cấu trúc điều khiển được sử dụng để kiểm soát luồng thực thi của các đoạn mã có trong chương trình.
+- Có nhiều cách để bạn diễn đạt điều kiện trong chương trình.
 
-####    Câu lệnh if: 
+####    Câu lệnh if: Nếu điều kiện này đúng thì code nằm trong sẽ được thực thi
 Câu lệnh if được sử dụng khi việc thực thi của một đoạn mã lệnh phụ thuộc vào tính đúng của của một biểu thức điều kiện cho trước.
 
 ví dụ:
 ```
-var greet; hour = 7;
-
-if (hour < 12 && hour > 0) { 
-        greet = "Good morning"; 
+var bank_balance = 302.13;
+var amount = 99.99;
+if (amount < bank_balance) {
+   console.log( "I want to buy this phone!" );
 }
+
 ```
 
-  - Ở ví dụ trên khi biểu thức điều kiện là:
-
-        hour < 12 && hour > 0
-
-  - trả về giá trị là true thì đoạn mã bên trong sẽ được thực thi để gán giá trị cho biến greet.
-
-        greet = "Good morning";
+- Lệnh if cần một diễn đạt trong dấu ngoặc đơn () được thể hiện như true hoặc false.
+- trong ví vụ chúng ta có biểu thức ==(amount < bank_balance)==,
   ---
 #### Câu lệnh else:
 Câu lệnh else được sử dụng kết hợp với if để thực thi đoạn mã lệnh khi biểu thức điều kiện trả về giá trị là false.
