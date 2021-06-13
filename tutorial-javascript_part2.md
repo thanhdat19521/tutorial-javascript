@@ -19,8 +19,8 @@ Toán tử + ngoài việc được sử dụng để thực hiện phép cộng
 
 vi dụ:
 ```
-        var name = "JavaScript";
-        console.log("Xin chào" + " " + name);
+var name = "JavaScript";
+console.log("Xin chào" + " " + name);
 ```
 Hoặc nối chuỗi với số:
 ```
