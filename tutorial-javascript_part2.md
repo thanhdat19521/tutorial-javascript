@@ -1,13 +1,9 @@
 ﻿## Javascript cho người mới bắt đầu – tutorial javascript cho frontend (phần 2)
-[Toán tử]()
-|
-|___  [Toán tử số học]()
-|
-|___  [Toán tử chuỗi]()
-|
-|___  [Toán tử gán giá trị]()
-|
-|___  [Toán tử logic]()
+- [Toán tử]()
+    - [Toán tử số học]()
+    - [Toán tử chuỗi]()
+    - [Toán tử gán giá trị]()
+    - [Toán tử logic]()
 
 
 ### Toán tử
