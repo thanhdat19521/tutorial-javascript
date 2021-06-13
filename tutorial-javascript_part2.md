@@ -4,6 +4,11 @@
     - [Toán tử chuỗi](#toán-tử-chuỗi)
     - [Toán tử gán giá trị](#toán-tử-gán-giá-trị)
     - [Toán tử logic](#toán-tử-logic)
+- [CẤU TRÚC ĐIỀU KIỆN](#cấu-trúc-điều-kiện)
+    - [Câu lệnh if](#câu-lệnh-if-nếu-điều-kiện-này-đúng-thì-code-nằm-trong-sẽ-được-thực-thi)
+    - [Câu lệnh else](#câu-lệnh-else-cung-cấp-môt-sự-thay-thế-điều-kiện-nếu-điều-kiện-của-if-không-thoả-mãn)
+    - [Câu lệnh else if](#câu-lệnh-else-if-cung-cấp-điều-kiện-như-câu-lệnh-if)
+- [VÒNG LẶP](#vòng-lặp)
 
 
 ### Toán tử
