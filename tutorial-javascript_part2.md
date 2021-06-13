@@ -74,7 +74,7 @@ if (amount < bank_balance) {
 ```
 
 - Lệnh if cần một diễn đạt trong dấu ngoặc đơn () được thể hiện như true hoặc false.
-- trong ví vụ chúng ta có biểu thức (amount < bank_balance), nó sẽ xác định true hoặc false tuỳ thuộc vào gía trị của biến *bank_balance*.
+- trong ví vụ chúng ta có biểu thức (amount < bank_balance), nó sẽ xác định true hoặc false tuỳ thuộc vào gía trị của biến <span style="color: red"> *bank_balance* </span>.
 
 ---
 #### Câu lệnh else:
